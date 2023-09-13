@@ -2,65 +2,24 @@ package co.edu.uniquindio.tienda.modelo.entidades;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import lombok.*;
+
 import java.io.Serializable;
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Objects;
 
 @Entity
-public class Cliente implements Serializable {
-    @Id
-    private String cedula;
-    private String nombre;
-    private String email;
+@Getter
+@Setter
+@NoArgsConstructor
+public class Cliente extends Persona implements Serializable {
+
     private String telefono;
-    public Cliente(){
-        super();
-    }
 
-    public String getCedula() {
-        return cedula;
-    }
-
-    public void setCedula(String cedula) {
-        this.cedula = cedula;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getTelefono() {
-        return telefono;
-    }
-
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Cliente cliente = (Cliente) o;
-
-        return cedula.equals(cliente.cedula);
-    }
-
-    @Override
-    public int hashCode() {
-        return cedula.hashCode();
-    }
+    @OneToMany(mappedBy = "cliente")
+    private List<Transaccion> transacciones;
 }
 
 /*
