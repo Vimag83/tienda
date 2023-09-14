@@ -34,4 +34,12 @@ private List<Transaccion> transacciones;
 @ManyToMany
 private List<Producto> productos;
 
+un @OnetoMany siempre lleva el mappedBy
+y lleva una list<>
+
+el @manytoOne nunca lleva el mapped by
+
+la relacion @onetoOne lleva el mapped by donde no esta la llave foranesaa
+donde esta la foranea solo va private Cita cita;
+
  */

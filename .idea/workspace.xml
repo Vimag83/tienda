@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a394d3-a3af-47b0-b970-032970acdff9" name="Changes" comment="Creacion de la primera tabla en el proyecto tienda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/EstadoPago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/MedioPago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Pago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/TipoProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Transaccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/TransaccionProducto.java" afterDir="false" />
+    <list default="true" id="27a394d3-a3af-47b0-b970-032970acdff9" name="Changes" comment="Creacion de las clases  en el proyecto tienda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/servicios/CitaServicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/servicios/HorarioServicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/servicios/PQRservicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/servicios/PacienteServicios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/tienda/modelo/entidades/Trabajador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,7 +96,11 @@
       <workItem from="1694038914952" duration="1646000" />
       <workItem from="1694042356812" duration="4967000" />
       <workItem from="1694212854525" duration="373000" />
-      <workItem from="1694628413278" duration="3360000" />
+      <workItem from="1694628413278" duration="4099000" />
+      <workItem from="1694633517043" duration="1296000" />
+      <workItem from="1694646146235" duration="41000" />
+      <workItem from="1694646454670" duration="24000" />
+      <workItem from="1694647419010" duration="3095000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion de la primera tabla en el proyecto tienda">
       <option name="closed" value="true" />
@@ -111,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694212942477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creacion de las clases  en el proyecto tienda">
+      <option name="closed" value="true" />
+      <created>1694632606317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694632606317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de la primera tabla en el proyecto tienda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de la primera tabla en el proyecto tienda" />
+    <MESSAGE value="Creacion de las clases  en el proyecto tienda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de las clases  en el proyecto tienda" />
   </component>
 </project>
